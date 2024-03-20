@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background_lock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+.user {
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.perfile__user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfile__user img {
+    height: 160px;
+    border: 3px solid #015288;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.user__name {
+    font-size: 2.3rem;
+    list-style: 50px;
+}
+
+.btn {
+    margin-top: 10px;
+    border: solid 2px #ffffff;
+    border-radius: 2px;
+}
+
+.btn__login {
+    padding: 5px 15px;
+    border-radius: 2px;
+    font-size: 13px;
+    border: solid 1px rgb(73, 73, 73);
+    backdrop-filter: blur(40px);
+    color: white;
+    background: rgba(255, 255, 255, 0.103);
+    cursor: pointer;
+}
+
+.bar img{
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.botom__bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.icons__bar {
+    display: flex;
+    column-gap: 15px;
+}
+
+.icons__bar img{
+    cursor: pointer;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.span {
+    position: absolute;
+    background: #2b2b2d;
+    color: white;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+    animation: anuncio 20s;
+    opacity: 0;
+}
+
+@keyframes anuncio {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        z-index: 0;
+    }
+}
+
+
+

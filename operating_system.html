@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows10 | Samidev</title>
+    <link rel="stylesheet" href="css/win.css" />
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+
+  </head>
+  <body>
+    <div class="home">
+    <!-- Barra de navegación -->
+    <nav>
+      <div class="nav__bar">
+        <div class="bar">
+          <a href="error.html">
+            <picture>
+              <img src="img/desk/svg/windows_icon.svg" alt="icon__win" />
+            </picture>
+          </a>
+          <input type="text" class="input__nav" placeholder="Buscar" />
+          <picture class="picture cortana" onclick="notAvable()"
+            ><img src="img/desk/svg/cortana.svg" alt="cortana"
+          /></picture>
+          <picture class="picture" onclick="notAvable()"
+            ><img src="img/desk/svg/microsoft_edge.svg" alt="edge"
+          /></picture>
+          <picture class="picture" onclick="notAvable()"
+            ><img src="img/desk/microsoft_store.png" alt="store"
+          /></picture>
+          <picture class="picture" onclick="notAvable()"
+            ><img src="img/desk/explorador_archivos.png" alt="archive"
+          /></picture>
+        </div>
+        <div class="complements__bar">
+          <picture>
+            <img src="img/desk/arriba.png" alt="arriba_ico" onclick="notAvable()" />
+          </picture>
+          <picture>
+            <img src="img/desk/ethernet_bar.png" alt="ethernet_ico" onclick="notAvable()" />
+          </picture>
+          <picture>
+            <img src="img/desk/volumen.png" alt="volumen_ico" onclick="notAvable()"/>
+          </picture>
+          <picture>
+            <img src="img/desk/bateria.png" alt="bateria_ico" onclick="notAvable()"/>
+          </picture>
+          <p align="center" onclick="notAvable()">12:00 PM <br />19/03/20024 </p>
+          <picture>
+            <img src="img/desk/options.png" alt="options" onclick="notAvable()"/>
+          </picture>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Links -->
+    <div class="desk">
+    <div class="apps">
+      <div class="colum">
+        <div class="app_on" onclick="mostrar()">
+            <img src="img/links/Wikipedia.png"/>
+            <span>Wikipedia</span>
+        </div>
+        <div class="app_on" onclick="mostrar1()">
+            <img src="img/links/svg/nasa-logo.svg" />
+            <span>Nasa</span>
+          </a>
+        </div>
+        <div class="app_on" onclick="mostrar2()">
+            <img src="img/links/dictionary.png"/>
+            <span>Dictionary</span>
+          </a>
+        </div>
+        <div class="app_on" onclick="mostrar3()">
+            <img src="img/links/cnn.png" />
+            <span>CNN</span>
+          </a>
+        </div>
+        <div class="app_on" onclick="mostrar4()">
+            <img src="img/links/wired.png" />
+            <span>Wired</span>
+          </a>
+        </div>
+        <div class="app_on1" onclick="mostrar6()">
+          <img src="img/links/national.png" />
+          <span>National <br> geographic</span>
+        </a>
+      </div>
+      </div>
+        
+      <div class="papelera">
+        <img src="img/links/svg/papelera.svg" alt="papelera" onclick="notAvablePapelera()">
+        <span>Papelera</span>
+      </div>
+    </div>
+    </div>
+
+
+    <!-- Mostrar páginas -->
+    <div class="paginas" id="page">
+      <button onclick="cerrar()">X</button>
+      <div class="page">
+          <iframe src="https://wikipedia.com" frameborder="0" width="800px" height="500px"></iframe>
+      </div>
+  </div>
+  <div class="paginas" id="page1">
+    <button onclick="cerrar1()">X</button>
+    <div class="page">
+        <iframe src="https://www.nasa.gov/" frameborder="0" width="800px" height="500px"></iframe>
+    </div>
+  </div>
+  <div class="paginas" id="page2">
+    <button onclick="cerrar2()">X</button>
+    <div class="page">
+        <iframe src="https://www.dictionary.com" frameborder="0" width="800px" height="500px"></iframe>
+    </div>
+  </div>
+  <div class="paginas" id="page3">
+    <button onclick="cerrar3()">X</button>
+    <div class="page">
+        <iframe src="https://cnnespanol.cnn.com" frameborder="0" width="800px" height="500px"></iframe>
+    </div>
+  </div>
+  <div class="paginas" id="page4">
+    <button onclick="cerrar4()">X</button>
+    <div class="page">
+        <iframe src="https://www.wired.com/" frameborder="0" width="800px" height="500px"></iframe>
+    </div>
+  </div>
+  <div class="paginas" id="page6">
+    <button onclick="cerrar6()">X</button>
+    <div class="page">
+        <iframe src="https://www.nationalgeographic.com/" frameborder="0" width="800px" height="500px"></iframe>
+    </div>
+  </div>
+</div>
+<span class="span"> NO CUMPLES CON LA RESOLUCION NECESARIA <br> PARA MOSTRAR EL CONTENIDO, MINIMO (1230PX)</span>
+    <!-- SCRIPT -->
+    <script src="js/script.js"></script>
+  </body>
+  
+</html>
+               
