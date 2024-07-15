@@ -15,8 +15,6 @@ body {
 }
 
 nav {
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
@@ -167,12 +165,21 @@ nav {
     background: #bbbbbb71;
     border-radius: 5px;
 }
+.home {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
 .paginas {
-    height: 500px;
+    height: 95vh;
     position: absolute;
-    top:100px;
-    right: 300px;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     border: solid 2px rgb(99, 99, 99);
     display: flex;
     background-color: rgb(194, 194, 194);
@@ -237,7 +244,7 @@ nav {
 }
 
 .page {
-    height: 500px;
+    height: 95vh;
 }
 
 
