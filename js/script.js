@@ -1,9 +1,3 @@
-function alerta() {
-    alert("Para una mejor experiencia active 'PANTALLA COMPLETA (F11)'");
-    alert("Las Páginas cargarán mas rapido dependiendo de la velocidad de su ancho de banda")
-}
-
-    window.onload = alerta
 
 function notAvable() {
     alert("Esta Opcion por el momento no está Disponible");

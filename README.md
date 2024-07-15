@@ -1,6 +1,6 @@
 <h2>🔍 Preview</h2>
-<img src="login.png" alt="Login Page">
+<img src="img/login.png" alt="Login Page">
 <hr>
-<img src="home.png" alt="Home Page">
+<img src="img/home.png" alt="Home Page">
 <hr>
-<img src="blue.png" alt="Blue Screen">
+<img src="img/blue.png" alt="Blue Screen">
